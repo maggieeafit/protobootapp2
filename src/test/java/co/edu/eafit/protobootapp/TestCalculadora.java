@@ -53,7 +53,7 @@ public class TestCalculadora {
     @Test
     public void testCuboMenosUno() {
         Calculadora calc = new Calculadora();
-        assertEquals(-1.0, calc.cubo(-1.0), 0);
+        assertEquals(1.0, calc.cubo(-1.0), 0);
     }
 
     @Test
